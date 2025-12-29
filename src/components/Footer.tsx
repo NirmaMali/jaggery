@@ -49,8 +49,7 @@ const Footer = ({ phoneNumber }: FooterProps) => {
             <h4 className="font-display font-semibold text-lg mb-4">Contact Us</h4>
             <ul className="space-y-2 text-primary-foreground/70">
               <li>📱 +91 {phoneNumber.slice(2)}</li>
-              <li>📍 Maharashtra, India</li>
-              <li>⏰ Mon - Sat: 9AM - 6PM</li>
+              <li>📍 Mandya, Karnataka, India</li>
             </ul>
           </div>
         </div>

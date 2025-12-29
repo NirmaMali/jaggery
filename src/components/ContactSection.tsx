@@ -1,4 +1,4 @@
-import { Phone, MapPin, Clock, MessageCircle } from "lucide-react";
+import { Phone, MapPin, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 interface ContactSectionProps {
@@ -27,7 +27,7 @@ const ContactSection = ({ phoneNumber }: ContactSectionProps) => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <div className="grid md:grid-cols-3 gap-6 mb-12">
           <div className="card-warm p-6 rounded-2xl text-center hover-lift">
             <div className="w-14 h-14 mx-auto mb-4 rounded-xl bg-whatsapp/10 flex items-center justify-center">
               <MessageCircle className="w-7 h-7 text-whatsapp" />
@@ -57,15 +57,7 @@ const ContactSection = ({ phoneNumber }: ContactSectionProps) => {
               <MapPin className="w-7 h-7 text-primary" />
             </div>
             <h3 className="font-display font-semibold text-foreground mb-2">Location</h3>
-            <p className="text-muted-foreground text-sm">Maharashtra, India</p>
-          </div>
-
-          <div className="card-warm p-6 rounded-2xl text-center hover-lift">
-            <div className="w-14 h-14 mx-auto mb-4 rounded-xl bg-primary/10 flex items-center justify-center">
-              <Clock className="w-7 h-7 text-primary" />
-            </div>
-            <h3 className="font-display font-semibold text-foreground mb-2">Hours</h3>
-            <p className="text-muted-foreground text-sm">Mon - Sat: 9AM - 6PM</p>
+            <p className="text-muted-foreground text-sm">Mandya, Karnataka, India</p>
           </div>
         </div>
       </div>
