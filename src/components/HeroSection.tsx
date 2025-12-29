@@ -23,9 +23,9 @@ const HeroSection = ({ phoneNumber }: HeroSectionProps) => {
         <img
           src={heroImage}
           alt="Pure organic jaggery"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center md:object-right"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-jaggery-dark/90 via-jaggery-dark/70 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-b md:bg-gradient-to-r from-jaggery-dark/95 via-jaggery-dark/80 to-jaggery-dark/40 md:to-transparent" />
       </div>
 
       {/* Content */}

@@ -7,9 +7,7 @@ import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
-// IMPORTANT: Replace with your actual WhatsApp number (with country code, no + or spaces)
-// Example: For +91 98765 43210, use "919876543210"
-const WHATSAPP_NUMBER = "919876543210";
+const WHATSAPP_NUMBER = "918618052679";
 
 const Index = () => {
   return (
